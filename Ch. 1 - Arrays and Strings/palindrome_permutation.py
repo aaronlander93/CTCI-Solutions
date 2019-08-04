@@ -5,7 +5,7 @@ def palindrome_permutation(string):
     
     if len(string) % 2 == 0:
         for letter in string_copy:
-            if letter == 0 or letter == ' ':
+            if letter == 0:
                 continue
             try:
                 test = letter
@@ -20,7 +20,7 @@ def palindrome_permutation(string):
     if len(string) % 2 != 0:
         pivot_char = 0
         for letter in string_copy:
-            if letter == 0 or letter == ' ':
+            if letter == 0:
                 continue
             try:
                 test = letter
