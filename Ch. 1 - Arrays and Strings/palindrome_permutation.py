@@ -35,9 +35,5 @@ def palindrome_permutation(string):
                     return False
         return True
 
-blah = 'aa bb cc dd'
-test = palindrome_permutation(blah)
-print(test)
-                
                 
                 
