@@ -18,15 +18,6 @@ def compress_string(string):
     else:
         return compressed_string
 
-
-
-uncompressed = "abcdeeeeeeeeeeeeeeeeee"
-
-compressed = compress_string(uncompressed)
-
-print(compressed)
-            
-            
         
         
     

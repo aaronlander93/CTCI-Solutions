@@ -23,10 +23,3 @@ def zero_matrix(matrix):
                 row[index] = 0
             
 
-matrix = [[1, 2, 1],[3,2,3],[0,1,1]]
-
-zeroed_matrix = zero_matrix(matrix)
-
-for row in matrix:
-    print(row)
-    print('\n')
